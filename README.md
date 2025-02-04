@@ -12,6 +12,8 @@ A simple task manager built with React that allows users to add, edit, delete, a
 
 ## Installation & Setup
 
+Please ensure you have Node.js installed!
+
 1. Clone the repository:
 
     ```bash
@@ -22,7 +24,7 @@ A simple task manager built with React that allows users to add, edit, delete, a
 2. Install dependencies:
 
     ```bash
-    npm install
+    npm install --save-dev web-vitals
     ```
 
 3. Start the app:
