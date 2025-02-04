@@ -1,0 +1,67 @@
+.task-manager {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.task-list {
+    list-style: none;
+    padding: 0;
+}
+
+.task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffffff;
+    padding: 10px 15px;
+    margin: 8px 0;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+/* Hover effect remains */
+.task-item:hover {
+    background: #f1f1f1;
+    cursor: pointer;
+}
+
+/* Completed tasks styling */
+.task-item.completed {
+    background: #28a745 !important; /* Green background */
+    color: white !important; /* White text */
+    text-decoration: line-through; /* Strikethrough text */
+}
+
+/* Task buttons styling */
+.task-buttons {
+    display: flex;
+    gap: 5px;
+}
+
+.task-input {
+    padding: 10px;
+    width: calc(100% - 20px);
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+/* Add Task Button */
+.add-task-button {
+    padding: 10px 15px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.add-task-button:hover {
+    background-color: #218838;
+}
